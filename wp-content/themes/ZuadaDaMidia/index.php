@@ -187,24 +187,36 @@
 
 <div class="container-fluid escute">
 	<div class="container">
-		<div class="col-lg-3 no-padding">
+		<div class="col-lg-3 no-padding escute-box">
 			<h3>Nacional</h3>
-			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-9.jpg);background-position:center center;background-size:cover;"></div>
+			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-9.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
+			</div>
+			<div class="oculta1">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
 		</div>
 		
-		<div class="col-lg-3 no-padding">
+		<div class="col-lg-3 no-padding escute-box">
 			<h3>Séries</h3>
-			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-8.jpg);background-position:center center;background-size:cover;"></div>
+			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-8.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
+			</div>
+			<div class="oculta1">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
 		</div>
 		
-		<div class="col-lg-3 no-padding">
+		<div class="col-lg-3 no-padding escute-box">
 			<h3>Cinema</h3>
-			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;"></div>
+			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
+			</div>
+			<div class="oculta1">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
 		</div>
 		
-		<div class="col-lg-3 no-padding">
+		<div class="col-lg-3 no-padding escute-box">
 			<h3>Escute a Zuada</h3>
-			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;"></div>
+			<div class="e1" style="min-height:180px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
+			</div>
+			<div class="oculta1">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
 		</div>
 	</div>
 </div>
@@ -228,32 +240,176 @@
 
 <div class="container-fluid mt enquete">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 full-container"></div>
-			<div class="col-lg-6 full-container"><h1 class="full-container">Especial</h1></div>
-			<div class="col-lg-3 full-container"><h1 class="full-container" style="margin-left:-23px !important;">Mais Lidas</h1></div>
+		<div class="row">		
+			<div class="col-lg-12">
+				<div class="col-lg-3"><h3 class="full-container">Enquete</h3></div>
+				<div class="col-lg-6"><h3 class="full-container">Especial</h3></div>
+				<div class="col-lg-3"><h3 class="full-container" style="background:#333">Mais Lidas</h3></div>
+			</div>
 		</div>
-		
-		<div class="col-lg-3">
-			dasdas
-		</div>
-		
-		<div class="col-lg-6 full-container destaque no-padding">
-			dasdas
-		</div>
-		
-		<div class="col-lg-3 full-container b1">
-			
-			dadas		 
-			
-		</div>
-		
+		<div class="row">		
+			<div class="col-lg-12 mt">
+				<div class="col-lg-3">
+					dasdas
+				</div>		
+				<div class="col-lg-6 no-padding">
+					<div class="col-lg-5 full-container">	
+						<div class="col-lg-12 img-rounded" style="min-height:180px !important;margin-bottom:5px; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;" >
+							<a href="#" class="mais">+</a>
+						</div>
+						<a href="#" class="a1">É um fato conhecido A vantagem de usar Lorem Ipsum é que e</a>
+						<p><a href="#" class="p1">A vantagem de usar Lorem Ipsum é que e É um fato conhecido A vantagem.</a></p>
+					</div>
+
+					<div class="col-lg-7">			
+						<div class="col-lg-12 full-container mb">
+							<div class="col-lg-5" style="min-height:80px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;"></div>
+							<div class="col-lg-7 no-padding">
+								<a href="#" class="a2">Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. </a>
+							</div>
+						</div>
+						
+						<div class="col-lg-12 full-container mb">
+							<div class="col-lg-5" style="min-height:80px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;"></div>
+							<div class="col-lg-7 no-padding">
+								<a href="#" class="a2">É um fato conhecido A vantagem de usar que e</a>
+							</div>
+						</div>
+						
+						<div class="col-lg-12 full-container mb">
+							<div class="col-lg-5" style="min-height:80px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;"></div>
+							<div class="col-lg-7 no-padding">
+								<a href="#" class="a2">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica. </a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<ul class="list-group">
+						<li><div class="maislida">1</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+						<li><div class="maislida">2</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+						<li><div class="maislida">3</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+						<li><div class="maislida">4</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+						<li><div class="maislida">5</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+						<li><div class="maislida">6</div> <a href="#">Notícia mais lida 1 Notícia mais li...</a></li>
+					</ul>
+					
+				</div>
+			</div>	
+		</div>		
 	</div>
 </div>
 
 
-<div class="container-fluid">
-	<div class="container" style="height:500px;">
+<div class="container-fluid acesse">
+	<div class="container">
+		<div class="col-lg-12">
+			<div class="col-lg-4 full-container box" style="min-height:220px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-azul.png" />
+				<h3>Assessoria</h3>
+				<div class="oculta2">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
+			</div>
+			<div class="col-lg-4 full-container box" style="min-height:220px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+				<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-azul.png" />
+				<h3>Agências</h3>
+				<div class="oculta2">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</div>
+			</div>
+				<div class="col-lg-3 full-container" style="width:31%">
+				<h3 class="h3">Acesse</h3>
+
+				<a href="#" class="link">
+					<div class="col-lg-6 lnk" style="min-height:50px !important; width:46%; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;">
+						
+					</div>
+				</a>
+				<a href="#" class="link">
+					<div class="col-lg-6 lnk" style="min-height:50px !important; width:46%; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;">
+						
+					</div>
+				</a>
+				<a href="#" class="link">
+					<div class="col-lg-6 lnk" style="min-height:50px !important; width:46%; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;">
+						
+					</div>
+				</a>
+				<a href="#" class="link">
+					<div class="col-lg-6 lnk" style="min-height:50px !important; width:46%; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg);background-position:center center;background-size:cover;">
+						
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid mt galeria">
+	<div class="container">
+		<div class="col-lg-12">
+			<div class="col-lg-4" style="background:#ccc;height:270px;">
+				<img src="<?php echo get_bloginfo('template_url'); ?>/img/img_insta.png"/>
+				<div class="col-lg-12">
+					BOX INSTAGRAM
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="col-lg-7 full-container">	
+					<h3>Galeria</h3>
+					<div class="col-lg-12 full-container gallery" style="min-height:227px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+						<div class="g-caption">
+							<a href="#">É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant...</a>
+							<p>É um fato conhecido A vantagem de usar Lorem Ipsum é que e Conhecido A vantagem de usar Lorem vant... A vantagem de usar Lorem Ipsum é que e Conhecido A</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 full-container" style="margin-top:8px !important">	
+					<div class="col-lg-12 mt">&nbsp;</div>
+					<div class="col-lg-6 gallery-in">
+						<div class="col-lg-12 full-container" style="min-height:100px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+							<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png"/>
+							<div class="g-in-caption">
+								<a href="#">É um fato conhecido A vantagem Ipsum é que nt...</a>
+							</div>
+						</div>				
+					</div>
+					<div class="col-lg-6 gallery-in">
+						<div class="col-lg-12 full-container" style="min-height:100px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+							<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png"/>
+							<div class="g-in-caption">
+								<a href="#">É um fato conhecido A vantagem Ipsum é que nt...</a>
+							</div>
+						</div>				
+					</div>
+					<div class="col-lg-6 gallery-in">
+						<div class="col-lg-12 full-container" style="min-height:100px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+							<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png"/>
+							<div class="g-in-caption">
+								<a href="#">É um fato conhecido A vantagem Ipsum é que nt...</a>
+							</div>
+						</div>					
+					</div>
+					<div class="col-lg-6 gallery-in">
+						<div class="col-lg-12 full-container" style="min-height:100px !important; background:url(http://vanimg.s3.amazonaws.com/13-jquery-sliders-6.jpg);background-position:center center;background-size:cover;">
+							<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png"/>	
+							<div class="g-in-caption">
+								<a href="#">É um fato conhecido A vantagem Ipsum é que nt...</a>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="container-fluid pub-rodape">
+	<div class="container">
+		<div class="col-lg-12">
+			<div class="titulo-pub">Publicidade</div>
+			<img style="width:100%" src="<?php echo get_bloginfo('template_url'); ?>/img/pub-960x100.jpg"/>
+		</div>
 	</div>
 </div>
 <?php get_footer(); ?>
