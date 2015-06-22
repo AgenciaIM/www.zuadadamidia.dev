@@ -144,7 +144,7 @@ function display_setup_form( $error = null ) {
 		</tr>
 		<tr>
 			<th scope="row"><?php _e( 'Privacy' ); ?></th>
-			<td colspan="2"></td>
+			<td colspan="2"><label><input type="checkbox" name="blog_public" id="blog_public" value="1" <?php checked( $blog_public ); ?> /> <?php _e( 'Allow search engines to index this site.' ); ?></label></td>
 		</tr>
 	</table>
 	<p class="step"><input type="submit" name="Submit" value="<?php esc_attr_e( 'Install WordPress' ); ?>" class="button button-large" /></p>
