@@ -6,8 +6,9 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-  <meta name="keywords" content="Rádio Sampaio 92,5 FM & 870 AM">
-  <meta name="description" content="Rádio Sampaio 92,5 FM & 870 AM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Zuada da Mídia">
+  <meta name="description" content="Zuada da Mídia">
   <meta name="author" content="Agência Interactive MOnkey">
   <meta name="robots" content="index,follow">
     <title>Zuada da Mídia</title>
@@ -15,20 +16,14 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
     <link rel="icon" href="<?php echo get_bloginfo('template_url'); ?>/img/icon.png" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/swiper.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/style.css" />  
 		
     <script type="text/javascript" src="<?php echo get_bloginfo('template_url'); ?>/js/jquery-1.7.1.min.js"></script>
+	 <script type="text/javascript" src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
     <?php wp_head();?>
-	 <script>
-		$(document).ready(function(){
-			var face = $('.fb-page').length;
-			if(face > 0){
-				//$('.fb-page span').attr('style','');
-			}
-		});
-	 </script>
+	 
 </head>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -40,20 +35,20 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
 }(document, 'script', 'facebook-jssdk'));</script>
 <body>
 <!-- BARRA HEADER -->
-<div class="container-fluid full-container">
+<div class="container-fluid">
    <div class="container barra-header">
-		<div class="col-lg-12 col-md-12">
+		<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
 	
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-				<img class="img-responsive" src="<?php echo get_bloginfo('template_url'); ?>/logo.png"/>
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-3">
+				<img class="logo img-responsive" src="<?php echo get_bloginfo('template_url'); ?>/logo.png"/>
 			</div>
 			
-			<div class="full-container col-lg-8 col-md-8 pull-right">
-				<img style="width:100%;height:95px;margin-top:10px;" class="pull-right" src="<?php echo get_bloginfo('template_url'); ?>/img/pub.jpg"/>
+			<div class=" col-lg-8 col-md-8 col-sm-8 hidden-xs pull-right full-container">
+				<img style="margin-top:10px;" class="pull-right" src="<?php echo get_bloginfo('template_url'); ?>/img/pub-625x100.jpg"/>
 			</div>	
 			
-			<div class="full-container col-lg-8 col-md-8 pull-right">
-				<div class="col-lg-12 col-md-12 pull-right full-container">
+			<div class=" col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right full-container">
+				<div class="redes col-lg-12 col-md-12 col-sm-4 col-xs-4 full-container">
 					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/facebook.png" /></a>
 					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/twitter.png" /></a>
 					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/youtube.png" /></a>
@@ -64,8 +59,8 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
       
 		<!-- MENU NAVEGACAO-->
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu">
-       	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 full-container">
-               <nav class="navbar navbar-default full-container">
+       	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 full-container">
+               <nav class="navbar navbar-default ">
                     <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -77,7 +72,7 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
                   </div>
                 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse full-container" id="bs-example-navbar-collapse-1">
+                  <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                      <ul class="nav navbar-nav">
                         <li><a href="#">Tv</a></li>
                         <li><a href="#">Rádio</a></li>
@@ -92,7 +87,7 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
                    </div><!-- /.navbar-collapse -->
                </nav>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 full-container">
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs full-container">
                <div class="search pull-right">
 						<div class="search-in">
 						  <input type="text" placeholder="buscar...">
