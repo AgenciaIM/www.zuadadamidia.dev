@@ -1,66 +1,18 @@
 <?php get_header();?>
 <div class="container-fluid">
-    <div class="container single">
-    	<div class="col-lg-7">
-        	CONTEUDO DA PAGINA
-             
-             
-        </div>
+    <div class="container page">
+    	<div class="col-md-7 col-md-offset-1 page-in">
+			<div class="col-md-12 full-container">
+				<?php if (have_posts()): while (have_posts()) : the_post(); ?>                               
+					<h1><?php the_title() ?></h1>
+					<?php the_content() ?>
+            <?php endwhile; endif; ?> 
+         </div>
+      </div>
         
-        <div class="col-lg-5 sidebar-jornalismo">
-			<div class="col-lg-2">
-            	<img class="bolha-jornalismo" src="<?php echo get_bloginfo('template_url'); ?>/img/bolha-vazia.png" />
-            </div>
-            <div class="col-lg-10 jornalismo">Jornalismo</div>
-            <!-- LISTAGEM NEWS -->
-            <div class="col-lg-1">&nbsp;</div>
-            <div class="col-lg-3 miniatura-news" style="background:url('http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg'); 
-            background-position:center center;background-size:cover;">
-
-            </div>
-            <div class="col-lg-8">
-            	<h2>Notícia de 1 Noticia de 1</h2>
-            	<a href="#">Detalhe da Notícia d Detalhe da Notícia d Det da Notícia dtalhe datícia...</a>
-            </div>
-            
-            <div class="col-lg-12 espacamento">&nbsp;</div>
-            
-            <div class="col-lg-1">&nbsp;</div>            
-            <div class="col-lg-3 miniatura-news" style="background:url('http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg'); 
-            background-position:center center;background-size:cover;">
-
-            </div>
-            <div class="col-lg-8">
-            	<h2>Notícia de 1 Noticia de 1</h2>
-            	<a href="#">Detalhe da Notícia d Detalhe da Notícia d Det da Notícia dtalhe datícia...</a>
-            </div>
-            
-            <div class="col-lg-12 espacamento">&nbsp;</div>
-            
-            <div class="col-lg-1">&nbsp;</div>                        
-            <div class="col-lg-3 miniatura-news" style="background:url('http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg'); 
-            background-position:center center;background-size:cover;">
-
-            </div>
-            <div class="col-lg-8">
-            	<h2>Notícia de 1 Noticia de 1</h2>
-            	<a href="#">Detalhe da Notícia d Detalhe da Notícia d Det da Notícia dtalhe datícia...</a>
-            </div>
-            
-            <div class="col-lg-12 espacamento">&nbsp;</div>
-            
-            <div class="col-lg-1">&nbsp;</div>                        
-            <div class="col-lg-3 miniatura-news" style="background:url('http://vanimg.s3.amazonaws.com/13-jquery-sliders-7.jpg'); 
-            background-position:center center;background-size:cover;">
-
-            </div>
-            <div class="col-lg-8">
-            	<h2>Notícia de 1 Noticia de 1</h2>
-            	<a href="#">Detalhe da Notícia d Detalhe da Notícia d Det da Notícia dtalhe datícia...</a>
-            </div>
+      <div class="col-md-3">
+			<?php get_sidebar('single'); ?>
 		</div>
-    </div>
-    
-    
+   </div> <!-- page  -->
 </div> <!-- container-fluid -->
 <?php get_footer();?>

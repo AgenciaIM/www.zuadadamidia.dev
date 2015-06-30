@@ -13,15 +13,16 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
   <meta name="robots" content="index,follow">
     <title>Zuada da Mídia</title>
     
-    <link rel="icon" href="<?php echo get_bloginfo('template_url'); ?>/img/icon.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo $DIR ; ?>/img/icon.png" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/swiper.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/style.css" />  
+    <link rel="stylesheet" type="text/css" href="<?php echo $DIR ; ?>/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $DIR ; ?>/css/swiper.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $DIR ; ?>/style.css" />  
 		
-    <script type="text/javascript" src="<?php echo get_bloginfo('template_url'); ?>/js/jquery-1.7.1.min.js"></script>
-	 <script type="text/javascript" src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo $DIR ; ?>/js/jquery-1.7.1.min.js"></script>
+	 <script type="text/javascript" src="<?php echo $DIR ; ?>/js/bootstrap.min.js"></script>
+	 
     <?php wp_head();?>
 	 
 </head>
@@ -33,26 +34,26 @@ $DIR = "http://localhost/wordpress/wp-content/themes/ZuadaDaMidia"; ?>
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<body>
+
 <!-- BARRA HEADER -->
 <div class="container-fluid">
    <div class="container barra-header">
 		<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
 	
 			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-3">
-				<img class="logo img-responsive" src="<?php echo get_bloginfo('template_url'); ?>/logo.png"/>
+				<a href="http://localhost/wordpress"><img class="logo img-responsive" src="<?php echo $DIR ; ?>/logo.png" style="border:0px"/></a>
 			</div>
 			
 			<div class=" col-lg-8 col-md-8 col-sm-8 hidden-xs pull-right full-container">
-				<img style="margin-top:10px;" class="pull-right" src="<?php echo get_bloginfo('template_url'); ?>/img/pub-625x100.jpg"/>
+				<img style="margin-top:10px;" class="pull-right" src="<?php echo $DIR; ?>/img/pub-625x100.jpg"/>
 			</div>	
 			
 			<div class=" col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right full-container">
 				<div class="redes col-lg-12 col-md-12 col-sm-4 col-xs-4 full-container">
-					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/facebook.png" /></a>
-					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/twitter.png" /></a>
-					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/youtube.png" /></a>
-					<a class="pull-right social" href="#"><img src="<?php echo get_bloginfo('template_url'); ?>/img/instagram.png" /></a>
+					<a class="pull-right social" href="#"><img src="<?php echo $DIR; ?>/img/facebook.png" /></a>
+					<a class="pull-right social" href="#"><img src="<?php echo $DIR; ?>/img/twitter.png" /></a>
+					<a class="pull-right social" href="#"><img src="<?php echo $DIR; ?>/img/youtube.png" /></a>
+					<a class="pull-right social" href="#"><img src="<?php echo $DIR; ?>/img/instagram.png" /></a>
 				</div>
 			</div>
 			<!-- LOGO -->  

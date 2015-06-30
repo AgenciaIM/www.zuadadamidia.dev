@@ -59,7 +59,7 @@
 					</div>
 					
 					<div class="full-container col-md-12 hidden-xs" style="overflow:hidden;max-height:155px;">
-						<div class="fb-page" data-href="https://www.facebook.com/ODiaAlagoas" data-height="155" data-small-header="true" data-adapt-container-width="false" data-width="220" data-hide-cover="true" data-show-facepile="false" data-show-posts="false">
+						<div class="fb-page" data-href="https://www.facebook.com/Zuadadamidia" data-height="155" data-small-header="true" data-adapt-container-width="false" data-width="220" data-hide-cover="true" data-show-facepile="false" data-show-posts="false">
 							<div class="fb-xfbml-parse-ignore">
 								<blockquote cite="https://www.facebook.com/ODiaAlagoas">
 									<a href="https://www.facebook.com/ODiaAlagoas">O Dia Alagoas</a>
@@ -174,8 +174,8 @@
 								<div class="col-md-12  col-sm-12 col-xs-12 d1 full-container">
 									<div class="d-caption">
 										<a href="<?php the_permalink() ?>"><?php title_limite(90) ?>
-										</a>
-										<p><?php resumo(250) ?></p>
+										
+										<p><?php resumo(250) ?></p></a>
 									</div>
 								</div>
 							</div>
@@ -278,7 +278,7 @@
 							<div class="escute-box col-md-12 col-sm-12 col-xs-12 full-container" style="background:url('<?php echo $img ?>') center center;background-size:cover;">
 								<h3>Nacional</h3>
 								<div class="col-md-12 col-sm-12 col-xs-12 e-caption">
-									<a href="#"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
+									<a href="<?php the_permalink() ?>"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
 								</div>
 								<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
 							</div>
@@ -298,7 +298,7 @@
 							<div class="escute-box col-md-12 col-sm-12 col-xs-12 full-container" style="background:url('<?php echo $img ?>') center center;background-size:cover;">
 								<h3>Séries</h3>
 								<div class="col-md-12 col-sm-12 col-xs-12 e-caption">
-									<a href="#"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
+									<a href="<?php the_permalink() ?>"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
 								</div>
 								<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
 							</div>
@@ -318,7 +318,7 @@
 							<div class="escute-box col-md-12 col-sm-12 col-xs-12 full-container" style="background:url('<?php echo $img ?>') center center;background-size:cover;">
 								<h3>Cinema</h3>
 								<div class="col-md-12 col-sm-12 col-xs-12 e-caption">
-									<a href="#"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
+									<a href="<?php the_permalink() ?>"><?php title_limite(83) ?><br><p style="font-size:10px"><?php resumo(40) ?></p></a>
 								</div>
 								<img class="tri" src="<?php echo get_bloginfo('template_url'); ?>/img/tri-branco.png" />
 							</div>
@@ -343,6 +343,7 @@
 		<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
 			<div class="col-md-3 col-sm-3 col-xs-4 no-pdl">
 				<h1>Enquete</h1>
+				<?php //if (function_exists('enquetez_im')){ enquetez_im(1); } ?>
 			</div>			
 
 			<div class="col-md-6 col-sm-6 col-xs-8 no-pdl special">
